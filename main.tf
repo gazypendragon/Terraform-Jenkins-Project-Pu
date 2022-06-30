@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket = "terraformstatefile-mumbai"
+    bucket = "oga-s3-bucket"
     key = "main"
     region = "ap-south-1"
-    dynamodb_table = "terraformstatetable"
+    dynamodb_table = "terraformstate-table"
   }
 }
 
