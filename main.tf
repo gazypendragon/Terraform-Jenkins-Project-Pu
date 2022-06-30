@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket = "oga-s3-bucket"
     key = "main"
-    region = "ap-south-1"
+    region = "us-east-2"
     dynamodb_table = "terraformstate-table"
   }
 }
